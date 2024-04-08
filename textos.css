@@ -1,0 +1,13 @@
+.textos {
+    text-align: center;
+    margin: 4rem ;
+    color: black;
+}
+
+a{
+    color:#364E8D;
+}
+
+a:hover{
+    color: #4E8D36;
+}

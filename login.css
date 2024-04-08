@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:#364E8D;
+    
+}
+
+.contenedor{
+    margin: 0px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+   
+}
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contenedor .elemento label{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #f8f8f8;
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: rgb(250, 245, 245);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"]{
+    
+    background-color: #4E8D36;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+   
+}
+.contenedor .elemento input[type="submit"]:hover{
+    background-color:#364E8D;
+}
+a.text-login{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color:  #4E8D36;
+}
+
+.form-container {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0,0.5);
+  }
+  .text-reg{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    /* Ajuste de tamaño del header */
+    .masthead {
+      height: auto;
+      padding-top: 50px;
+    }
+    /* Ajuste de tamaño del formulario */
+    .form-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    /* Ajuste de tamaño del input */
+    input[type="text"], input[type="password"] {
+      width: 100%;
+    }
+  }
+  

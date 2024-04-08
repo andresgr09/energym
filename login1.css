@@ -1,0 +1,76 @@
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .form-container .contenedor {
+    background-color:#0a349e;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para los círculos */
+  .bg-circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #4E8D36;
+  
+  }
+  
+  .bg-circle-1 {
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    left: -10%;
+    z-index: -1;
+  }
+  
+  .bg-circle-2 {
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 45%;
+    z-index: -1;
+  }
+  
+  .bg-circle-3 {
+    width: 150px;
+    height: 150px;
+    top: 40%;
+    left: 60%;
+    z-index: -1;
+  }
+  
+  .bg-circle-4 {
+    width: 100px;
+    height: 100px;
+    top: 80%;
+    left: 50%;
+    z-index: -1;
+  }
+  .bg-circle-5 {
+    width: 100px;
+    height: 100px;
+    top: 60%;
+    left: 10%;
+    z-index: -1;
+  }
+  @media only screen and (max-width: 600px) {
+    /* Ajuste de tamaño del header */
+    .masthead {
+      height: auto;
+      padding-top: 50px;
+    }
+    /* Ajuste de tamaño del formulario */
+    .form-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    /* Ajuste de tamaño del input */
+    input[type="text"], input[type="password"] {
+      width: 100%;
+    }
+  }
